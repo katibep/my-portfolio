@@ -1,0 +1,30 @@
+.bread-crump{
+    display: flex;
+    justify-content: space-between;
+    background-color: $primary-color;
+    padding-left: 3rem;
+    @media(max-width:768px){
+        margin-top: 0rem;
+        display: flex;
+        gap: 1rem;
+        padding-left: 1rem;
+        padding: .4rem;
+    }
+    a{
+        width: 15%;
+        display: flex;
+        align-items: center;
+        font-size: 1.10rem;
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+    .one{
+        width: 30%;
+    }
+    }
+    .off{
+        @media(max-width:768px){
+            display: none;
+        } 
+    }
+}

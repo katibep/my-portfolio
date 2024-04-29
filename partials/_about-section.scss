@@ -1,0 +1,32 @@
+.about-section{
+    background-color: $black-color;
+    color: white;
+    padding-left: 22rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    @media(max-width:768px){
+        padding-left: 3rem;
+    }
+    .one{
+        font-size: 1.50rem;
+        margin-bottom: 1rem;
+    }
+    .two{
+        color: rgb(165, 163, 163);
+        @media(max-width:768px){
+            font-size: 1.10rem;
+        }
+    }
+    .three{
+        margin-top: 3rem;
+        font-size: 1.20rem;
+        letter-spacing: .2rem;
+    }
+    .two2{
+        color: rgb(165, 163, 163);
+        margin-top: 1rem;
+        @media(max-width:768px){
+            font-size: 1.10rem;
+        }
+    }
+}
