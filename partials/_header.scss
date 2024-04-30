@@ -11,9 +11,9 @@
     @media(max-width:768px){
       display: flex;
       justify-content: flex-start;
+      padding-right: 1rem;
+      padding-top: 2rem;
       font-size: 1rem;
-      padding-right: 3rem;
-      padding-top: 3rem;
     }
     a{
       text-decoration: none;
@@ -30,7 +30,7 @@
         display: none;
         @media(max-width:768px){
           display: block;
-          font-size: 1.40rem;
+          font-size: 1rem;
       }
     }
   }
