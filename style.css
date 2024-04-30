@@ -30,7 +30,7 @@ body {
     display: flex;
     padding-top: 1.5rem;
     font-size: 1rem;
-    padding-left: 4rem;
+    padding-left: 6rem;
   }
 }
 .header a {
@@ -70,7 +70,7 @@ body {
   .hero-section {
     display: flex;
     flex-direction: column-reverse;
-    padding-left: 2rem;
+    padding-left: 7rem;
     gap: 2rem;
     padding-top: 0rem;
     padding-bottom: 1rem;
