@@ -25,7 +25,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            font-size: .50rem;
+            font-size: 1rem;
         }
         a{
             text-decoration: none;
@@ -37,7 +37,7 @@
         .two{
             font-size: 1.60rem;
             @media(max-width:768px){
-                font-size: .70rem;
+                font-size: 1.60rem;
             }
         }
         .as{
