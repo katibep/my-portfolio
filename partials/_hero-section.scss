@@ -25,7 +25,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            font-size: 1rem;
+            font-size: .50rem;
         }
         a{
             text-decoration: none;
@@ -37,7 +37,7 @@
         .two{
             font-size: 1.60rem;
             @media(max-width:768px){
-                font-size: 1.10rem;
+                font-size: .70rem;
             }
         }
         .as{
@@ -72,7 +72,7 @@
         height: 35vh;
         clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
         @media(max-width:768px){
-           width: 40%;
+           width: 60%;
            height: 40%;
            margin-top: 4rem;
         }
