@@ -70,7 +70,7 @@ body {
   .hero-section {
     display: flex;
     flex-direction: column-reverse;
-    padding-left: 5rem;
+    padding-left: 2rem;
     gap: 2rem;
     padding-top: 0rem;
     padding-bottom: 1rem;
@@ -140,7 +140,7 @@ body {
 }
 @media (max-width: 768px) {
   .hero-section .image {
-    width: 40%;
+    width: 60%;
     height: 40%;
     margin-top: 4rem;
   }
