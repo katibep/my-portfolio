@@ -30,7 +30,7 @@ body {
     display: flex;
     padding-top: 1.5rem;
     font-size: 1rem;
-    padding-left: 6rem;
+    padding-left: 8rem;
   }
 }
 .header a {
@@ -70,11 +70,11 @@ body {
   .hero-section {
     display: flex;
     flex-direction: column-reverse;
-    padding-left: 7rem;
+    padding-left: 5rem;
     gap: 2rem;
     padding-top: 0rem;
     padding-bottom: 1rem;
-    height: 50vh;
+    height: 70vh;
   }
 }
 .hero-section .developer {
