@@ -10,10 +10,10 @@
     @media(max-width:768px){
         display: flex;
         flex-direction: column-reverse; 
-        padding-left: 2rem;
+        padding-left: 1rem;
         gap: 2rem;
         padding-top: 0rem;
-        padding-bottom: 1rem;
+        padding-bottom: 4rem;
         height: 70vh;
     }
     .developer{
@@ -72,9 +72,12 @@
         height: 35vh;
         clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
         @media(max-width:768px){
-            width: 90%;
+            width: 95%;
+            height: 100%;
             padding: 2rem;
             border-radius: 200px;
+            z-index: 0;
+            margin-top: 2rem;
            clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
         }
         .imy{

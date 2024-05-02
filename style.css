@@ -33,6 +33,9 @@ body {
     padding-left: 8rem;
   }
 }
+.header .widy {
+  width: 100%;
+}
 .header a {
   text-decoration: none;
   color: whitesmoke;
@@ -51,7 +54,7 @@ body {
 }
 @media (max-width: 768px) {
   .header .menu {
-    display: block;
+    display: none;
     font-size: 0.2rem;
   }
 }
@@ -70,10 +73,10 @@ body {
   .hero-section {
     display: flex;
     flex-direction: column-reverse;
-    padding-left: 2rem;
+    padding-left: 1rem;
     gap: 2rem;
     padding-top: 0rem;
-    padding-bottom: 1rem;
+    padding-bottom: 4rem;
     height: 70vh;
   }
 }
@@ -140,9 +143,12 @@ body {
 }
 @media (max-width: 768px) {
   .hero-section .image {
-    width: 90%;
+    width: 95%;
+    height: 100%;
     padding: 2rem;
     border-radius: 200px;
+    z-index: 0;
+    margin-top: 2rem;
     -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
             clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
   }
