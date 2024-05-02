@@ -72,9 +72,10 @@
         height: 35vh;
         clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
         @media(max-width:768px){
-           width: 60%;
-           height: 40%;
-           margin-top: 4rem;
+            width: 90%;
+            padding: 2rem;
+            border-radius: 200px;
+           clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
         }
         .imy{
         width: 100%;

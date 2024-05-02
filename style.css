@@ -52,7 +52,7 @@ body {
 @media (max-width: 768px) {
   .header .menu {
     display: block;
-    font-size: 1rem;
+    font-size: 0.2rem;
   }
 }
 
@@ -140,9 +140,11 @@ body {
 }
 @media (max-width: 768px) {
   .hero-section .image {
-    width: 60%;
-    height: 40%;
-    margin-top: 4rem;
+    width: 90%;
+    padding: 2rem;
+    border-radius: 200px;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+            clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
   }
 }
 .hero-section .image .imy {
